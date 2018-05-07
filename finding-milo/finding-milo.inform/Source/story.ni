@@ -52,15 +52,19 @@ The Pantry is a room. "The pantry is filled with bread, fruit, tins of soup and 
 
 The Library is a room. "The library is filled with bookshelves, themselves filled with books. An elliptical trainer sits to one side of the room." The Library is west from the Main Entrance.
 
-The Lower Driveway is a room. "The lower part of the driveway leads to the garage, which is never used to store cars. Instead it's full of junk.".
+The Lower Driveway is a room. "The lower part of the driveway leads to the garage, which is never used to store cars. Instead it's full of junk. You can enter the garage via the metal door to the east.".
 
 The Upper Driveway is a room. "The upper part of the driveway leads to the road and the wide world beyond."
 
 The Back Stairs is a room.  "The back stairs leads up to the conservatory." The Back Stairs is up from the Side Entrance.
 
-The Side Entrance is a room. "The side entrance is stuffed with boots and coats." The Side Entrance is west of the Pantry. The Side Entrance is north from the Library.
+The Side Entrance is a room. "The side entrance is stuffed with boots and coats. An oak door leads north to the upper driveway." The Side Entrance is west of the Pantry. The Side Entrance is north from the Library.
 
-The Conservatory is a room. "The conservatory isn't filled wth plants. Instead it's full of cloth. A sewing machine sits in one corner on a table." The Conservatory is up from the Back Stairs.
+The oak door is a door. The oak door is south of the Upper Driveway and north of the Side Entrance. The oak door is closed.
+
+The Conservatory is a room. "The conservatory isn't filled wth plants. Instead it's full of cloth. A sewing machine sits in one corner on a table. A glass door leads west to the drawbridge." The Conservatory is up from the Back Stairs.
+
+The glass door is a door. The glass door is west of the Conservatory and east of the Drawbridge. The glass door is closed.
 
 The Cat Room is a room. "The 'Cat Room' does not generally contain a cat. Once upon a time the cat litter tray was there and the name stuck. Now it's full of more food." The Cat Room is west from the Side Entrance.
 
@@ -68,7 +72,7 @@ Nana And Grandad's Bedroom is a room. "Your grandparents' bedroom is filled with
 
 Nana And Grandad's Bathroom is a room. "This bathroom is rarely used, as you need to get past all the cardboard boxes to reach it." Nana And Grandad's Bathroom is east from Nana And Grandad's Bedroom.
 
-The Drawbridge is a room. "The drawbridge doesn't go up and down, but it is a bridge to the patio." The Drawbridge is west from the Conservatory.
+The Drawbridge is a room. "The drawbridge doesn't go up and down, but it is a bridge to the patio." 
 
 The Patio is a room. "The patio has some chairs and a table."  The Patio is west from the Drawbridge.
 
@@ -80,4 +84,6 @@ The Walnut Tree is a room. "A mighty tree towers over this side of the garden. T
 
 The Tree House is a room. "The tree house consists of some platforms and a net. It is a work in progress!" The Tree House is up from the Walnut Tree. Milo is in the Tree House.
 
-The Garage is a room. "The garage is dark and smells of oil." The Garage is east from the Lower Driveway. The Afrat In The Dark is in the Garage.
+The metal door is a door. The metal door is closed. The metal door is west of the Garage and east of the Lower Driveway.
+
+The Garage is a room. "The garage is dark and smells of oil." The Afrat In The Dark is in the Garage.
