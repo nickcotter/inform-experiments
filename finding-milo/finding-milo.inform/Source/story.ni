@@ -42,6 +42,8 @@ The Stairs is a room. "The stairs lead down from the landing to the main entranc
 
 The Main Entrance is a room. "You are at the bottom of some stairs. A big door leads outside."  
 
+The big door is a door. The big door is east of the Main Entrance and west of the Lower Driveway. The big door is closed.
+
 The Dining Room is a room. "A large dark wood table dominates this room." The Dining Room is south from the Main Entrance.
 
 The Kitchen is a room. "The kitchen is full of cupboards stuffed with exciting things". The Kitchen is north from the Main Entrance.
@@ -50,7 +52,7 @@ The Pantry is a room. "The pantry is filled with bread, fruit, tins of soup and 
 
 The Library is a room. "The library is filled with bookshelves, themselves filled with books. An elliptical trainer sits to one side of the room." The Library is west from the Main Entrance.
 
-The Lower Driveway is a room. "The lower part of the driveway leads to the garage, which is never used to store cars. Instead it's full of junk".
+The Lower Driveway is a room. "The lower part of the driveway leads to the garage, which is never used to store cars. Instead it's full of junk.".
 
 The Upper Driveway is a room. "The upper part of the driveway leads to the road and the wide world beyond."
 
