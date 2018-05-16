@@ -2,7 +2,9 @@
 
 Part 1 Dramatis Personae
 
-A cat is a kind of animal. Milo is a cat.
+A cat is a kind of animal. 
+
+Milo is a cat. The description of Milo is "A black cat with an inscrutable expression. [if Milo is carrying Horsey]He is holding Horsey in his paws!"
 
 The Afrat In The Dark is a person.
 
@@ -40,7 +42,7 @@ The Attic is a room. "The attic is hot and stuffy. There are tools lying around 
 
 The Stairs is a room. "The stairs lead down from the landing to the main entrance of the house. It is a favourite place for hopping and jumping practice." The Stairs is down from the Landing and up from the Main Entrance.
 
-The Main Entrance is a room. "You are at the bottom of some stairs. A big door leads outside."  
+The Main Entrance is a room. "You are at the bottom of some stairs. A big door leads outside. To the west lies the library, while the kitchen lies to the north."
 
 The big door is a door. The big door is east of the Main Entrance and west of the Lower Driveway. The big door is closed.
 
