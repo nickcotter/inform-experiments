@@ -6,7 +6,7 @@ A cat is a kind of animal.
 
 Milo is a cat. The description of Milo is "A black cat with an inscrutable expression. [if Milo is carrying Horsey]He is holding Horsey in his paws!"
 
-The Afrat In The Dark is a person.
+Afrat is a person. The description of Afrat is "A shrouded figure in the darkness, giggling quietly. It is the Afrat In The Dark! [if Afrat is carrying catnip mouse]It clutches a catnip mouse in its claws."
 
 Morgan is a person.
 
@@ -18,7 +18,7 @@ The catnip mouse is a kind of thing.
 
 Milo is carrying Horsey.
 
-The Afrat In The Dark is carrying the catnip mouse.
+Afrat is carrying the catnip mouse.
 
 Part 3 Locations
 
