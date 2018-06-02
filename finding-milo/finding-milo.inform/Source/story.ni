@@ -1,6 +1,13 @@
 "finding-milo" by "Nicholas Cotter".
 
-Part 1 Dramatis Personae
+Part 1 - The Basics
+
+The block giving rule is not listed in the check giving it to rules.
+
+Use scoring.
+The maximum score is 100.
+
+Part 2 Dramatis Personae
 
 A cat is a kind of animal. 
 
@@ -8,19 +15,17 @@ Milo is a cat. The description of Milo is "A black cat with an inscrutable expre
 
 Afrat is a person. The description of Afrat is "A shrouded figure in the darkness, giggling quietly. It is the Afrat In The Dark! [if Afrat is carrying catnip mouse]It clutches a catnip mouse in its claws."
 
-Morgan is a person.
+Part 3 Items
 
-Part 2 Items
+Horsey is a portable thing. The description of Horsey is "A small brown toy horse."
 
-Horsey is a kind of thing.
-
-The catnip mouse is a kind of thing.
+The catnip mouse is a portable thing. The description of the catnip mouse is "A small grey furry cat toy stuffed with catnip."
 
 Milo is carrying Horsey.
 
 Afrat is carrying the catnip mouse.
 
-Part 3 Locations
+Part 4 Locations
 
 Your Bedroom is a room. "Your bedroom is stuffed with toys, even in the secret hiding places. To the north you can see the landing."
 
@@ -42,7 +47,7 @@ The Attic is a room. "The attic is hot and stuffy. There are tools lying around 
 
 The Stairs is a room. "The stairs lead down from the landing to the main entrance of the house. It is a favourite place for hopping and jumping practice." The Stairs is down from the Landing and up from the Main Entrance.
 
-The Main Entrance is a room. "You are at the bottom of some stairs. A big door leads outside. To the west lies the library, while the kitchen lies to the north."
+The Main Entrance is a room. "You are at the bottom of some stairs. A big door leads outside to the east. To the west lies the library, while the kitchen lies to the north."
 
 The big door is a door. The big door is east of the Main Entrance and west of the Lower Driveway. The big door is closed.
 
@@ -63,8 +68,11 @@ Carry out switching on the torch:
 Carry out switching off the torch: 
 	now the torch is not lit;
 	say "The beam disappears.";
+	
+After taking the torch:
+	increase the score by 10;
 
-The Lower Driveway is a room. "The lower part of the driveway leads to the garage, which is never used to store cars. Instead it's full of junk. You can enter the garage via the metal door to the east.".
+The Lower Driveway is a room. "The lower part of the driveway leads to the garage, which is never used to store cars. Instead it's full of junk. You can enter the garage via the metal door to the east. To the west lies the main big door to the house.".
 
 The Upper Driveway is a room. "The upper part of the driveway leads to the road and the wide world beyond."
 
@@ -96,9 +104,41 @@ The Walnut Tree is a room. "A mighty tree towers over this side of the garden. T
 
 The Tree House is a room. "The tree house consists of some platforms and a net. It is a work in progress!" The Tree House is up from the Walnut Tree. Milo is in the Tree House.
 
+Instead of giving the torch to Milo:
+	say "He seems totally uninterested.";
+	reject the player's command;
+	
+
+Understand "stroke [someone]" as stroking. 
+
+Stroking is an action applying to one visible thing.
+
+Instead of stroking Milo for more than the first time:
+	say "He bats at you with his paw and you snatch your hand back.";
+	reject the player's command;
+
+Carry out stroking someone:
+	if noun is Milo:
+		say "He purrs happily but does not release Horsey";
+		increase the score by 10;
+	else:
+		say "[noun] does not wish to be stroked right now.";
+
+After giving the catnip mouse to Milo:
+	say "Milo snatches the catnip mouse and plays with it, purring loudly.";
+	let target be Horsey;
+	say "Milo drops Horsey in his excitement.";
+	now Horsey is in the Tree House;
+	increase the score by 10;
+	
+After taking Horsey:
+	increase the score by 50;
+	end the story saying "Congratulations! You've got Horsey back!";
+	
+
 The metal door is a door. The metal door is closed. The metal door is west of the Garage and east of the Lower Driveway.
 
-The Garage is a room. "The garage is dark and smells of oil." Afrat is in the Garage. The Garage is dark.
+The Garage is a room. "The garage is dark and smells of oil. To the west lies the driveway." Afrat is in the Garage. The Garage is dark.
 
 The light switch is a switched off device in the Garage. It is fixed in place. 
 
@@ -107,9 +147,17 @@ Carry out switching off the light switch:
 
 Carry out switching on the light switch:
 	now the Garage is lighted;
-	if the Afrat holds something: 
-		let the items be the list of things held by the Afrat ;
-		repeat with N running through the items:
-			move N to the holder of the Afrat;
+	say "The garage is flooded with bright light.";
+	
+After switching on the light switch:
+	now the catnip mouse is in the Garage;
 	now the Afrat is nowhere;
 	say "The Afrat In The Dark shrieks in terror and disappears! As it does so it drops something.";
+	increase the score by 10;
+	
+After taking the catnip mouse:
+	increase the score by 10;
+	
+Instead of giving the torch to Afrat:
+	say "It hisses at you eerily.";
+	reject the player's command;
