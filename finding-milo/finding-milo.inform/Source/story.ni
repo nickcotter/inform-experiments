@@ -39,7 +39,7 @@ Your Bedroom is a room. "Your bedroom is stuffed with toys, even in the secret h
 
 There is a shoe in Your Bedroom.
 
-There is a Notice in Your Bedroom. The Notice is fixed in place. The description is "The notice reads: 'Top Tips: To look at something more closely, try examining it. If you want to go somewhere, try typing the direction you wish to go.'";
+The Instruction Leaflet is in Your Bedroom. The description is "The leaflet reads: 'Top Tips: To look at something more closely, try examining it. If you want to go somewhere, try typing the direction you wish to go.'";
 
 The Landing is a room. "The walls of the landing are covered in pictures of you and your brother. Stairs lead down. To the north you can see another bedroom, and to the west is a balcony. Your bedroom lies to the south. Another room lies to the east." The Landing is north of Your Bedroom.
 
