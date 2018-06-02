@@ -54,6 +54,16 @@ The Pantry is a room. "The pantry is filled with bread, fruit, tins of soup and 
 
 The Library is a room. "The library is filled with bookshelves, themselves filled with books. An elliptical trainer sits to one side of the room." The Library is west from the Main Entrance.
 
+The torch is a switched off device in the Library. "A large red metal torch."
+
+Carry out switching on the torch: 
+	now the torch is lit; 
+	say "The torch emits a bright beam.";
+
+Carry out switching off the torch: 
+	now the torch is not lit;
+	say "The beam disappears.";
+
 The Lower Driveway is a room. "The lower part of the driveway leads to the garage, which is never used to store cars. Instead it's full of junk. You can enter the garage via the metal door to the east.".
 
 The Upper Driveway is a room. "The upper part of the driveway leads to the road and the wide world beyond."
@@ -88,4 +98,18 @@ The Tree House is a room. "The tree house consists of some platforms and a net. 
 
 The metal door is a door. The metal door is closed. The metal door is west of the Garage and east of the Lower Driveway.
 
-The Garage is a room. "The garage is dark and smells of oil." The Afrat In The Dark is in the Garage.
+The Garage is a room. "The garage is dark and smells of oil." Afrat is in the Garage. The Garage is dark.
+
+The light switch is a switched off device in the Garage. It is fixed in place. 
+
+Carry out switching off the light switch: 
+	now the Garage is dark;
+
+Carry out switching on the light switch:
+	now the Garage is lighted;
+	if the Afrat holds something: 
+		let the items be the list of things held by the Afrat ;
+		repeat with N running through the items:
+			move N to the holder of the Afrat;
+	now the Afrat is nowhere;
+	say "The Afrat In The Dark shrieks in terror and disappears! As it does so it drops something.";
