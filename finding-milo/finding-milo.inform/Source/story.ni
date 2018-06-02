@@ -7,6 +7,14 @@ The block giving rule is not listed in the check giving it to rules.
 Use scoring.
 The maximum score is 100.
 
+Definition: a direction (called thataway) is viable if the room thataway from the location is a room.
+
+Instead of going nowhere: 
+    let count of exits be the number of viable directions; 
+    if the count of exits is 0, say "You appear to be trapped in here." instead; 
+    if the count of exits is 1, say "From here, the only way out is [list of viable directions]."; 
+    otherwise say "From here, the viable exits are [list of viable directions]."
+
 Part 2 Dramatis Personae
 
 A cat is a kind of animal. 
@@ -30,6 +38,8 @@ Part 4 Locations
 Your Bedroom is a room. "Your bedroom is stuffed with toys, even in the secret hiding places. To the north you can see the landing."
 
 There is a shoe in Your Bedroom.
+
+There is a Notice in Your Bedroom. The Notice is fixed in place. The description is "The notice reads: 'Top Tips: To look at something more closely, try examining it. If you want to go somewhere, try typing the direction you wish to go.'";
 
 The Landing is a room. "The walls of the landing are covered in pictures of you and your brother. Stairs lead down. To the north you can see another bedroom, and to the west is a balcony. Your bedroom lies to the south. Another room lies to the east." The Landing is north of Your Bedroom.
 
