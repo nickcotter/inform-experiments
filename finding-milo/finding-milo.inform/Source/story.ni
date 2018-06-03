@@ -37,11 +37,11 @@ Afrat is carrying the catnip mouse.
 
 Part 4 Locations
 
-Your Bedroom is a room. "Your bedroom is stuffed with toys, even in the secret hiding places. To the north you can see the landing."
+Your Bedroom is a room. "Your bedroom is stuffed with toys, even in the secret hiding places. To the north you can see the landing. Up a ladder you can see the attic."
 
 There is a shoe in Your Bedroom.
 
-The Instruction Leaflet is in Your Bedroom. The description is "The leaflet reads: 'Top Tips: To look at something more closely, try examining it. If you want to go somewhere, try typing the direction you wish to go.'";
+The Instruction Leaflet is in Your Bedroom. The description is "The leaflet reads: 'Top Tips: To look at something more closely, try examining it. If you want to go somewhere, try typing the direction you wish to go. Directions are usually given as points on the compass, for example north, south, east or west. You can go up and down too in some places.'";
 
 The Landing is a room. "The walls of the landing are covered in pictures of you and your brother. Stairs lead down. To the north you can see another bedroom, and to the west is a balcony. Your bedroom lies to the south. Another room lies to the east." The Landing is north of Your Bedroom.
 
@@ -57,19 +57,23 @@ The Main Bathroom is a room. "The bathroom is a little dark. One of the bulbs ha
 
 The Attic is a room. "The attic is hot and stuffy. There are tools lying around and pieces of wood. Your bedroom can be reached by going down the ladder." The Attic is up from Your Bedroom.
 
+The screwdriver is a portable thing in the Attic. "A small yellow screwdriver."
+
 The Stairs is a room. "The stairs lead down from the landing to the main entrance of the house. It is a favourite place for hopping and jumping practice." The Stairs is down from the Landing and up from the Main Entrance.
 
 The Main Entrance is a room. "You are at the bottom of some stairs. A big door leads outside to the east. To the west lies the library, while the kitchen lies to the north."
 
 The big door is a door. The big door is east of the Main Entrance and west of the Lower Driveway. The big door is closed.
 
-The Dining Room is a room. "A large dark wood table dominates this room." The Dining Room is south from the Main Entrance.
+The Dining Room is a room. "A large dark wood table dominates this room. To the north you can see the main entrance." The Dining Room is south from the Main Entrance.
 
-The Kitchen is a room. "The kitchen is full of cupboards stuffed with exciting things". The Kitchen is north from the Main Entrance.
+The Kitchen is a room. "The kitchen is full of cupboards stuffed with exciting things. To the north lies the kitchen whereas to the south you can see the main entrance.". The Kitchen is north from the Main Entrance.
 
-The Pantry is a room. "The pantry is filled with bread, fruit, tins of soup and yo-yo bars." The Pantry is north from the Kitchen.
+The Pantry is a room. "The pantry is made up of two interconnected rooms, filled with bread, fruit, tins of soup and yo-yo bars. You can see the kitchen to the south and another entrance to the west.". The Pantry is north from the Kitchen.
 
-The Library is a room. "The library is filled with bookshelves, themselves filled with books. An elliptical trainer sits to one side of the room." The Library is west from the Main Entrance.
+The Library is a room. "The library is filled with bookshelves, themselves filled with books. An elliptical trainer sits to one side of the room. To the north you can see another room, while to the east you can see the main entrance." The Library is west from the Main Entrance. The Library is south of the Side Entrance.
+
+The elliptical trainer is a fixed in place device in the Library. "A strange mechanical contraption.".
 
 The torch is a switched off device in the Library. "A large red metal torch."
 
@@ -86,11 +90,11 @@ After taking the torch:
 
 The Lower Driveway is a room. "The lower part of the driveway leads to the garage, which is never used to store cars. Instead it's full of junk. You can enter the garage via the metal door to the east. To the west lies the main big door to the house.".
 
-The Upper Driveway is a room. "The upper part of the driveway leads to the road and the wide world beyond."
+The Upper Driveway is a room. "The upper part of the driveway leads to the road and the wide world beyond. To the south the driveway continues down and around the house.". The Upper Drive is north of the Lower Driveway.
 
-The Back Stairs is a room.  "The back stairs leads up to the conservatory." The Back Stairs is up from the Side Entrance.
+The Back Stairs is a room.  "The back stairs leads up to the conservatory. You can go up or down." The Back Stairs is up from the Side Entrance.
 
-The Side Entrance is a room. "The side entrance is stuffed with boots and coats. An oak door leads north to the upper driveway." The Side Entrance is west of the Pantry. The Side Entrance is north from the Library.
+The Side Entrance is a room. "The side entrance is stuffed with boots and coats. An oak door leads north to the upper driveway. To the east you can see another room, while a larger room lies to the south." The Side Entrance is west of the Pantry. The Side Entrance is north from the Library.
 
 The oak door is a door. The oak door is south of the Upper Driveway and north of the Side Entrance. The oak door is closed.
 
@@ -98,23 +102,23 @@ The Conservatory is a room. "The conservatory isn't filled wth plants. Instead i
 
 The glass door is a door. The glass door is west of the Conservatory and east of the Drawbridge. The glass door is closed.
 
-The Cat Room is a room. "The 'Cat Room' does not generally contain a cat. Once upon a time the cat litter tray was there and the name stuck. Now it's full of more food." The Cat Room is west from the Side Entrance.
+The Cat Room is a room. "The 'Cat Room' does not generally contain a cat. Once upon a time the cat litter tray was there and the name stuck. Now it's full of more food. To the east you can see the side entrance." The Cat Room is west from the Side Entrance.
 
-Nana And Grandad's Bedroom is a room. "Your grandparents' bedroom is filled with cardboard boxes at the moment." Nana And Grandad's Bedroom is south from the Library.
+Nana And Grandad's Bedroom is a room. "Your grandparents' bedroom is filled with cardboard boxes at the moment. To the north lies the library, while a small bathroom can be seen to the east." Nana And Grandad's Bedroom is south from the Library.
 
-Nana And Grandad's Bathroom is a room. "This bathroom is rarely used, as you need to get past all the cardboard boxes to reach it." Nana And Grandad's Bathroom is east from Nana And Grandad's Bedroom.
+Nana And Grandad's Bathroom is a room. "This bathroom is rarely used, as you need to get past all the cardboard boxes to reach it. To the west lies a bedroom." Nana And Grandad's Bathroom is east from Nana And Grandad's Bedroom.
 
-The Drawbridge is a room. "The drawbridge doesn't go up and down, but it is a bridge to the patio." 
+The Drawbridge is a room. "The drawbridge doesn't go up and down, but it is a bridge to the patio which lies west from here. To the east you can see a room with many windows.". 
 
-The Patio is a room. "The patio has some chairs and a table."  The Patio is west from the Drawbridge.
+The Patio is a room. "The patio has some chairs and a table. To the east you can see a wooden bridge. To the north you can see a garden."  The Patio is west from the Drawbridge.
 
-The Garden is a room. "The garden is warm and sunny. Bees bumble amid the flowers." The Garden is north from the Patio.
+The Garden is a room. "The garden is warm and sunny. Bees bumble amid the flowers. To the south you can see a patio. To the north you can see a very big tree. To the west is a duck enclosure." The Garden is north from the Patio.
 
-The Duck House is a room. "A small hut sits here next to a muddy pond." The Duck House is west from the Garden.
+The Duck House is a room. "A small hut sits here next to a muddy pond. The ducks are nowhere to be seen. To the east you can see the garden." The Duck House is west from the Garden.
 
-The Walnut Tree is a room. "A mighty tree towers over this side of the garden. There is a house in this tree." The Walnut Tree is north from the Garden.
+The Walnut Tree is a room. "A mighty tree towers over this side of the garden. There is a house in this tree. Perhaps you should look up there? To the south you can see the garden." The Walnut Tree is north from the Garden.
 
-The Tree House is a room. "The tree house consists of some platforms and a net. It is a work in progress!" The Tree House is up from the Walnut Tree. Milo is in the Tree House.
+The Tree House is a room. "The tree house consists of some platforms and a net. It is a work in progress! You can't go any further up, you can only go down." The Tree House is up from the Walnut Tree. Milo is in the Tree House.
 
 Instead of giving the torch to Milo:
 	say "He seems totally uninterested.";
@@ -174,7 +178,7 @@ Instead of giving the torch to Afrat:
 	say "It hisses at you eerily.";
 	reject the player's command;
 	
-
+Part 5 - The Game Begins
 
 When play begins:
 	say "You awake to find Horsey, your beloved bedtime companion, missing! Where is he?";
@@ -188,6 +192,7 @@ When Call To Adventure begins:
 	now Milo is in Your Bedroom;
 	
 Before going north during Call To Adventure, say "You can't leave until you find your beloved Horsey." instead.
+Before going up during Call To Adventure, say "You can't leave until you find your beloved Horsey." instead.
 
 Milo can be idle or jumpy. Milo is idle.
 
