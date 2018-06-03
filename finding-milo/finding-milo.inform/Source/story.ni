@@ -2,6 +2,8 @@
 
 Part 1 - The Basics
 
+Release along with an interpreter.
+
 The block giving rule is not listed in the check giving it to rules.
 
 Use scoring.
