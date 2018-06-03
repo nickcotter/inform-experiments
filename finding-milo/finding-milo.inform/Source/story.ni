@@ -173,3 +173,28 @@ After taking the catnip mouse:
 Instead of giving the torch to Afrat:
 	say "It hisses at you eerily.";
 	reject the player's command;
+	
+
+
+When play begins:
+	say "You awake to find Horsey, your beloved bedtime companion, missing! Where is he?";
+	
+
+Call To Adventure is a scene.
+
+Call To Adventure begins when play begins.
+
+When Call To Adventure begins:
+	now Milo is in Your Bedroom;
+	
+Before going north during Call To Adventure, say "You can't leave until you find your beloved Horsey." instead.
+
+Milo can be idle or jumpy. Milo is idle.
+
+After examining Milo during Call To Adventure:
+	say "Milo runs out of the bedroom.";
+	move Milo to the Tree House;
+	now Milo is jumpy;
+	
+Call To Adventure ends when Milo is jumpy.
+
