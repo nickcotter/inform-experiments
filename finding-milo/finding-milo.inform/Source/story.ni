@@ -35,7 +35,20 @@ Milo is carrying Horsey.
 
 Afrat is carrying the catnip mouse.
 
-Part 4 Locations
+
+Part 4 - Verbs And Actions
+
+A supporter can be rideable. A supporter is usually not rideable.
+
+Understand "ride [something]" as riding. 
+
+Riding is an action applying to one visible thing.
+
+Carry out riding something:
+	say "You ride [the noun] for a bit. It's good exercise!";
+
+
+Part 5 Locations
 
 Your Bedroom is a room. "Your bedroom is stuffed with toys, even in the secret hiding places. To the north you can see the landing. Up a ladder you can see the attic."
 
@@ -73,7 +86,7 @@ The Pantry is a room. "The pantry is made up of two interconnected rooms, filled
 
 The Library is a room. "The library is filled with bookshelves, themselves filled with books. An elliptical trainer sits to one side of the room. To the north you can see another room, while to the east you can see the main entrance." The Library is west from the Main Entrance. The Library is south of the Side Entrance.
 
-The elliptical trainer is a fixed in place device in the Library. "A strange mechanical contraption.".
+The elliptical trainer is a fixed in place supporter in the Library. The description is "A strange mechanical contraption." The elliptical trainer is rideable.
 
 The torch is a switched off device in the Library. "A large red metal torch."
 
@@ -178,7 +191,7 @@ Instead of giving the torch to Afrat:
 	say "It hisses at you eerily.";
 	reject the player's command;
 	
-Part 5 - The Game Begins
+Part 6 - The Game Begins
 
 When play begins:
 	say "You awake to find Horsey, your beloved bedtime companion, missing! Where is he?";
