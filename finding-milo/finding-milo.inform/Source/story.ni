@@ -82,6 +82,11 @@ The Dining Room is a room. "A large dark wood table dominates this room. To the 
 
 The Kitchen is a room. "The kitchen is full of cupboards stuffed with exciting things. To the north lies the kitchen whereas to the south you can see the main entrance.". The Kitchen is north from the Main Entrance.
 
+Ye Flask is a fixed in place thing in the Kitchen. The description is "A flask filled with delicious elixir."
+
+Instead of taking Ye Flask:
+	say "You can't get ye flask!";
+
 The Pantry is a room. "The pantry is made up of two interconnected rooms, filled with bread, fruit, tins of soup and yo-yo bars. You can see the kitchen to the south and another entrance to the west.". The Pantry is north from the Kitchen.
 
 The Library is a room. "The library is filled with bookshelves, themselves filled with books. An elliptical trainer sits to one side of the room. To the north you can see another room, while to the east you can see the main entrance." The Library is west from the Main Entrance. The Library is south of the Side Entrance.
