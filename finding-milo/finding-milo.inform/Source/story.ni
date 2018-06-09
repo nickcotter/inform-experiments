@@ -106,9 +106,9 @@ Carry out switching off the torch:
 After taking the torch:
 	increase the score by 10;
 
-The Lower Driveway is a room. "The lower part of the driveway leads to the garage, which is never used to store cars. Instead it's full of junk. You can enter the garage via the metal door to the east. To the west lies the main big door to the house.".
+The Lower Driveway is a room. "The lower part of the driveway leads to the garage, which is never used to store cars. Instead it's full of junk. You can enter the garage via the metal door to the east. To the west lies the main big door to the house. The driveway itself extends uphill.". The Lower Driveway is down from the Upper Driveway.
 
-The Upper Driveway is a room. "The upper part of the driveway leads to the road and the wide world beyond. To the south the driveway continues down and around the house.". The Upper Drive is north of the Lower Driveway.
+The Upper Driveway is a room. "The upper part of the driveway leads to the road and the wide world beyond. Going downhill the driveway continues down and around the house, while a side entrance can be seen to the south.". The Upper Drive is up from the Lower Driveway.
 
 The Back Stairs is a room.  "The back stairs leads up to the conservatory. You can go up or down." The Back Stairs is up from the Side Entrance.
 
